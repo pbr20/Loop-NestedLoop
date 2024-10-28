@@ -1,3 +1,5 @@
+//You will be given an integer N followed by N digits. Concat all the digits to form a single number X and then print the value of X^2.
+
 #include <stdio.h>
 
 int main()

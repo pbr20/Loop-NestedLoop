@@ -1,3 +1,5 @@
+//Given two integers A and B. Find their LCM.
+
 #include <stdio.h>
 
 int main()

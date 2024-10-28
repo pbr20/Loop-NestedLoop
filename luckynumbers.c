@@ -1,3 +1,5 @@
+//Given an integer X. Find out if it is lucky number or not. [ A number is lucky if it contains at least one 4 or 7 in it]
+
 #include <stdio.h>
 
 int main()

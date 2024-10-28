@@ -1,1 +1,0 @@
-Given a number N which is a power of two. Find how many times it can be divided by two untill it becomes 1.

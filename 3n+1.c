@@ -1,3 +1,5 @@
+// 3n + 1 [If the number is odd, replace with 3n+1. And if it is even, divide it by 2 until it becomes 1. Print the series]
+
 #include <stdio.h>
 
 int main()
