@@ -6,7 +6,7 @@ int main()
 {
 
     int n;
-    int fn, ln;
+    int fn, ln,f=0;
 
     scanf("%d", &n);
     scanf("%d", &fn);
@@ -14,16 +14,23 @@ int main()
     for (int i = 1; i < n; i++)
     {
         scanf("%d", &ln);
+
+        if (ln / fn != 0)
+    {
+        fn = ln;
+    }else{
+        f=1;
+        break;
+    }
     }
 
-    if (ln / fn != 0)
-    {
-        printf("Increasing one\n");
+    if(f==1){
+        printf("Decreasing one\n");
     }
 
     else
     {
-        printf("Decreasing one\n");
+        printf("Increasing one\n");
     }
 
     return 0;
